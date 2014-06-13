@@ -1,0 +1,3 @@
+## charts-demo
+
+charts demo , use gem `lazy_high_charts`.

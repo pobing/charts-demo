@@ -1,0 +1,19 @@
+<h1>chart demo</h1>
+<%= high_chart("some_id1", @g_chart1) %>
+
+</br>
+<h2>Combination Chart </h2>
+<%= high_chart("some_id2", @g_chart2) %>
+
+<h2>pie chart</h2>
+
+<%= high_chart("pie_chart", @pie_chart)%>
+
+<%#= high_chart("pie_chart", @pie_chart) do |c| %>
+  <%#= raw "options.tooltip.formatter = function() {return '<b> YUPI!! '+ this.point.name +'</b>: '+ this.y +' %';}"  %>
+  <%#= raw "options.plotOptions.pie.dataLabels.formatter = function() { if (this.y > 5) return this.point.name; }"  %>
+<%# end %>
+
+<h3>spline chart</h3>
+<%#=high_chart('line_labels_chart', @line_labels_chart)%>
+<%=high_chart('spline_chart1', @spline_chart)%>
